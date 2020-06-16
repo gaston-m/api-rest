@@ -1,10 +1,18 @@
 
 {
-  {
+  " publicaciones " : [
+    { " id " : 1 , " title " : " Post 1 " },
+    { " id " : 2 , " title " : " Post 2 " },
+    { " id " : 3 , " title " : " Post 3 " }
+  ],
+  " comentarios " : [
+    { " id " : 1 , " body " : " algún comentario " , " postId " : 1 },
+    { " id " : 2 , " body " : " algún comentario " , " postId " : 1 }
+  ],
+  " perfil " : {
     "nombre": "gaston",
     "apellido": "muñoz",
     "email": "cgmtandil@gmail.com",
     "password": "zxcv"
-    
   }
 }
